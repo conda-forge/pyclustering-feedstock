@@ -5,11 +5,13 @@ Home: https://github.com/annoviko/pyclustering
 
 Package license: GPL-3.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyclustering-feedstock/blob/master/LICENSE.txt)
 
 Summary: pyclustring is a python data mining library
 
+Development: https://github.com/annoviko/pyclustering
 
+Documentation: https://pyclustering.github.io/docs/0.9.2/html/index.html
 
 Current build status
 ====================
