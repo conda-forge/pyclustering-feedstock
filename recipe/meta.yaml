@@ -10,7 +10,7 @@ source:
   sha256: 5ae0084a49d0ee8c4ce0bb5312049170303f3a6ef52274777a3bc214e9c9d5a2
 
 build:
-  number: 2
+  number: 3
   ignore_run_exports:
     - libcxx  # [osx]
   script: {{ PYTHON }} -m pip install . -vv
