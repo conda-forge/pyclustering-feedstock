@@ -1,5 +1,5 @@
 {% set name = "pyclustering" %}
-{% set version = "0.10.1" %}
+{% set version = "0.10.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 907a7ab5f6f76debae504bc0a47815e0873b54c3d6fd054fe45e37e15ee0accb
+  sha256: 8a98fd299fcc1e21b7b7c963275162dd7194aa3d921aa66d313775597cf833d1
 
 build:
   number: 0
