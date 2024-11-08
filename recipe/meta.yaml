@@ -10,7 +10,7 @@ source:
   sha256: 8a98fd299fcc1e21b7b7c963275162dd7194aa3d921aa66d313775597cf833d1
 
 build:
-  number: 3
+  number: 4
   ignore_run_exports:
     - libcxx  # [osx]
   script: {{ PYTHON }} -m pip install . -vv
@@ -21,9 +21,11 @@ build:
 requirements:
   build:
     - {{ compiler('cxx') }}
+    - {{ stdlib("c") }}
   host:
     - pip
     - python
+    - setuptools
   run:
     - python
     - matplotlib-base
