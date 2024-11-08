@@ -25,6 +25,7 @@ requirements:
   host:
     - pip
     - python
+    - setuptools
   run:
     - python
     - matplotlib-base
